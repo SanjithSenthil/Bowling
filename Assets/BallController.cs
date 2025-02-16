@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    [SerializeField] private float force = 15f;
+    [SerializeField] private float force = 50f;
     [SerializeField] private InputManager inputManager;
     [SerializeField] private Transform ballAnchor;
     [SerializeField] private Transform launchIndicator;
